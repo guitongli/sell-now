@@ -96,215 +96,246 @@
 			</nav>
 		</header>
 		<main id="main-site">
-			<section id="product" class="py-3">
-				<div class="container">
+			<!-- shoppint cart section-->
+
+			<div id="cart" class="py-3">
+				<div class="container-fluid w-75">
+					<h5 class="sand font-big">Shopping Cart</h5>
+					<!--shopping cart items-->
+
 					<div class="row">
-						<div class="col-sm-6 col-12">
-							<img
-								src="/assets/carousel-1.jpeg"
-								alt="banner-1"
-								class="img-fluid"
-							/>
-							<div
-								class="form-row d-flex pt-4 justify-content-between font-big sand"
-							>
-								<div class="col px-2">
-									<button
-										type="submit"
-										class="btn btn-danger form-control"
-									>
-										Buy
-									</button>
+						<div class="col-sm-9">
+							<!--cart item-->
+							<div class="row border-top py-3 mt-3">
+								<div class="col-sm-3">
+									<img
+										src="/assets/carousel-2.jpeg"
+										alt="cart1"
+										class="img-fluid"
+										height="height:120px"
+									/>
 								</div>
-								<div class="col px-2">
-									<button
-										type="submit"
-										class="btn btn-warning form-control"
-									>
-										Add to Cart
-									</button>
+								<div class="col-sm-7">
+									<h5>Product Name</h5>
+									<small>by brand**</small>
+									<!--product rating-->
+									<div class="d-flex">
+										<div
+											class="rating text-warning font-small"
+										>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+										</div>
+										<a href="" class="sand font-small"
+											>2 ratings</a
+										>
+									</div>
+									<!--product rating-->
+
+									<!--product quantity-->
+									<div class="qty d-flex pt-2">
+										<div class="d-flex sand w-25">
+											<div class="col-6">
+												<div class="qty d-flex">
+													<h6 class="py-2 sand">
+														Qty
+													</h6>
+													<div
+														class="px-4 d-flex sand"
+													>
+														<button
+															class="qty-up border bg-light"
+															data-id="pro1"
+														>
+															<i
+																class="fas fa-angle-up"
+															></i></button
+														><input
+															type="text"
+															class="qty-input border px-4 w-100 bg-light disabled green-font"
+															value="1"
+															placeholder="1"
+															data-id="pro1"
+														/>
+														<button
+															class="qty-down border bg-light"
+															data-id="pro1"
+														>
+															<i
+																class="fas fa-angle-down"
+															></i>
+														</button>
+													</div>
+													<button
+														type="submit"
+														class="btn text-danger px-3 border-right"
+													>
+														Delete
+													</button>
+													<button
+														type="submit"
+														class="btn text-danger"
+													>
+														Save
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--product quantity-->
+								</div>
+								<div class="col-sm-2 text-right">
+									<div class="sand text-danger">
+										$ <span class="product-price">152</span>
+									</div>
+								</div>
+							</div>
+							<div class="row border-top py-3 mt-3">
+								<div class="col-sm-3">
+									<img
+										src="/assets/carousel-2.jpeg"
+										alt="cart1"
+										class="img-fluid"
+										height="height:120px"
+									/>
+								</div>
+								<div class="col-sm-7">
+									<h5>Product Name</h5>
+									<small>by brand**</small>
+									<!--product rating-->
+									<div class="d-flex">
+										<div
+											class="rating text-warning font-small"
+										>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+											<span
+												><i class="fas fa-star"></i
+											></span>
+										</div>
+										<a href="" class="sand font-small"
+											>2 ratings</a
+										>
+									</div>
+									<!--product rating-->
+
+									<!--product quantity-->
+									<div class="qty d-flex pt-2">
+										<div class="d-flex sand w-25">
+											<div class="col-6">
+												<div class="qty d-flex">
+													<h6 class="py-2 sand">
+														Qty
+													</h6>
+													<div
+														class="px-4 d-flex sand"
+													>
+														<button
+															class="qty-up border bg-light"
+															data-id="pro2"
+														>
+															<i
+																class="fas fa-angle-up"
+															></i></button
+														><input
+															type="text"
+															class="qty-input border px-4 w-100 bg-light disabled"
+															value="1"
+															placeholder="1"
+															data-id="pro2"
+														/>
+														<button
+															class="qty-down border bg-light"
+															data-id="pro2"
+														>
+															<i
+																class="fas fa-angle-down"
+															></i>
+														</button>
+													</div>
+													<button
+														type="submit"
+														class="btn text-danger px-3 border-right"
+													>
+														Delete
+													</button>
+													<button
+														type="submit"
+														class="btn text-danger"
+													>
+														Save
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!--product quantity-->
+								</div>
+								<div class="col-sm-2 text-right">
+									<div class="sand text-danger">
+										$ <span class="product-price">152</span>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-6 py-5">
-							<h5>Item Name</h5>
-							<small>by Sumsung</small>
-							<div class="rating text-warning font-small">
-								<span><i class="fas fa-star"></i></span>
-								<span><i class="fas fa-star"></i></span>
-								<span><i class="fas fa-star"></i></span>
-								<span><i class="fas fa-star"></i></span>
-								<span><i class="fas fa-star"></i></span>
-								<a href="" class="px-2 sand font-small"
-									>rating</a
-								>
-							</div>
-							<hr class="m-0" />
+						<!--subtotal section-->
 
-							<table class="my-3">
-								<tr class="sand">
-									<td>MRP</td>
-									<td><strike>$4</strike></td>
-								</tr>
-								<tr class="sand">
-									<td>Deal Price</td>
-									<td class="font-big text-danger">
-										$<span>6</span
-										><small class="text-dark"
-											>&nbsp;&nbsp;inclusive taxes</small
-										>
-									</td>
-								</tr>
-								<tr class="sand">
-									<td>You Save</td>
-									<td class="font-big text-danger">
-										$<span>6</span
-										><small class="text-dark"
-											>&nbsp;&nbsp;inclusive taxes</small
-										>
-									</td>
-								</tr>
-							</table>
-
-							<div id="policy">
-								<div class="d-flex">
-									<div class="return text-center mr-5">
-										<div class="green-font my-2">
+						<div class="col-sm-3">
+							<div class="sub-total text-center mt-3 border">
+								<h6 class="font-small text-success py-3">
+									<i class="fas fa-check"></i>&nbsp;Free
+									delivery
+								</h6>
+								<div class="border-top py-4">
+									<h5 class="font-small">
+										Subtotal (2 items) &nbsp;
+										<div class="text-danger">
+											$
 											<span
-												class="fa fa-retweet border p-3 rounded-pill"
-											></span>
-										</div>
-										<a href="" class="sand font-small">
-											10 days replacement</a
-										>
-									</div>
-									<div class="return text-center mr-5">
-										<div class="green-font my-2">
-											<span
-												class="fa fa-check-double border p-3 rounded-pill"
-											></span>
-										</div>
-										<a href="" class="sand font-small">
-											quality garantied</a
-										>
-									</div>
-									<div class="return text-center mr-5">
-										<div class="green-font my-2">
-											<span
-												class="fa fa-truck border p-3 rounded-pill"
-											></span>
-										</div>
-										<a href="" class="sand font-small">
-											2 day delivery</a
-										>
-									</div>
-								</div>
-								<hr />
-								<!-- product details -->
-								<div
-									id="details"
-									class="sand d-flex flex-column text-dark"
-								>
-									<small>Deliver by tomorrow</small>
-									<small>sold by <a href="#">me</a></small>
-									<small
-										><i
-											class="fas fa-map-marker-alt light-font"
-										></i
-										>&nbsp;&nbsp;Deliver to 41414
-									</small>
-								</div>
-								<!-- color and options -->
-
-								<div class="row">
-									<div class="col-6">
-										<div class="color my-3">
-											<div
-												class="d-flex justify-content-between"
+												class="text-danger"
+												id="deal-price"
+												>152,00</span
 											>
-												<h6>color</h6>
-												<div
-													class="p-2 dark-bg rounded-circle"
-												>
-													<button
-														class="btn font-small"
-													></button>
-												</div>
-												<div
-													class="p-2 light-bg rounded-circle"
-												>
-													<button
-														class="btn font-small"
-													></button>
-												</div>
-												<div
-													class="p-2 green-bg rounded-circle"
-												>
-													<button
-														class="btn font-small"
-													></button>
-												</div>
-											</div>
 										</div>
-									</div>
-
-									<!-- product quantity section-->
-									<div class="col-6">
-										<div class="qty d-flex">
-											<h6>Qty</h6>
-											<div class="px-4 d-flex sand">
-												<button
-													class="qty-up border light-bg"
-												>
-													<i
-														class="fas fa-angle-up"
-													></i></button
-												><input
-													type="text"
-													class="qty-input border px-2 w-50 light-bg disabled"
-													value="1"
-													placeholder="1"
-												/>
-												<button
-													class="qty-down border light-bg"
-												>
-													<i
-														class="fas fa-angle-down"
-													></i>
-												</button>
-											</div>
-										</div>
-									</div>
-									<!-- product quantity section-->
-								</div>
-								<div class="size my-3">
-									<h6>Size</h6>
-									<div
-										class="d-flex justify-content-between w-75"
+									</h5>
+									<button
+										type="submit"
+										class="btn btn-warning m-3"
 									>
-										<div class="border p-2">
-											<button class="btn p-0">
-												4gb ram
-											</button>
-										</div>
-									</div>
+										Proceed to Buy
+									</button>
 								</div>
 							</div>
 						</div>
-						<div class="col-12">
-							<h6>Product Description</h6>
-							<hr />
-							<p class="sand">
-								Lorem ipsum dolor, sit amet consectetur
-								adipisicing elit. Ad ullam eius in inventore
-								itaque beatae, facilis, provident amet labore
-								nesciunt vel voluptates minus expedita incidunt
-								quia nostrum rem animi consectetur!
-							</p>
-						</div>
+						<!--subtotal section-->
 					</div>
+					<!--shopping cart items-->
 				</div>
-			</section>
+			</div>
+			<!-- shoppint cart section-->
 			<section id="top">
 				<div class="container py-5">
 					<h4>recommendations</h4>

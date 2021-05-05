@@ -47,7 +47,11 @@ $(document).ready(function () {
     // let $input = $('.qty .qty-input')
 
     $qty_up.click(function (e) {
-        console.log('hi', $input.val());
+       let number = $(this).data('id');
+        
+       let $input=$(".qty-input[data-id="+number+"]");
+
+console.log($input.val());
         if ($input.val() >= 1 && $input.val() <= 9) {
 
             $input.val(function (i, oldval) {
@@ -61,6 +65,9 @@ $(document).ready(function () {
 
 
     $qty_down.click(function (e) {
+         let number = $(this).data('id');
+        
+       let $input=$(".qty-input[data-id="+number+"]");
         console.log('hi', $input.val());
         if ($input.val() >= 1 && $input.val() <= 9) {
 
